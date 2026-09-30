@@ -1,0 +1,6 @@
+{
+  "name": "Apna Store - Reseller & Dropshipping Hub",
+  "description": "Wholesale dropshipping and reseller platform with factory prices, automated +Rs. 200 direct customer pricing, PKR currency, CSV bulk product listing, and Cash on Delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

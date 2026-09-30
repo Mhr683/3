@@ -1,0 +1,40 @@
+import { UserAccount } from '../types/dropship';
+
+export const DEFAULT_ACCOUNTS: UserAccount[] = [
+  {
+    id: 'user-reseller-1',
+    fullName: 'Muhammad Ali',
+    email: 'ali.reseller@apnastore.pk',
+    phone: '+92 301 7654321',
+    role: 'reseller',
+    city: 'Lahore',
+    avatarUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80',
+    isVerified: true,
+    brandName: 'Ali Trendz & Gadgets',
+    payoutMethod: 'JazzCash',
+    payoutAccountTitle: 'Muhammad Ali',
+    payoutAccountNumber: '0301-7654321',
+    createdAt: '2026-08-15',
+    lastLoginAt: 'Just now',
+  },
+  {
+    id: 'user-wholesaler-1',
+    fullName: 'Tariq Mehmood',
+    email: 'apex.wholesale@apnastore.pk',
+    phone: '+92 321 9876543',
+    role: 'wholesaler',
+    city: 'Karachi',
+    companyName: 'Shenzhen Apex Direct (Karachi Hub)',
+    warehouseLocation: 'Plot 42, Korangi Industrial Sector, Karachi',
+    dispatchTime: 'Same Day Dispatch (24 Hours)',
+    ntnOrCnic: '42101-9876543-1',
+    primaryCategory: 'Electronics & Smart Tech',
+    totalProductsSupplied: 148,
+    totalOrdersFulfilled: 14200,
+    rating: 4.95,
+    avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80',
+    isVerified: true,
+    createdAt: '2026-07-01',
+    lastLoginAt: 'Just now',
+  }
+];
